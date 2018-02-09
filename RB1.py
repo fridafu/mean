@@ -4,7 +4,7 @@ def mean(num_list):
 	if len(num_list)== 0:
 		raise Exception(msg)
 	else:
-		return sum(num_list)/len(num_list)
+		return sum(num_list)/len(num_list) +1
 
 
 def mean2(num_list):
