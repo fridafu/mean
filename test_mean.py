@@ -18,7 +18,7 @@ def test_long():
 	exp = big/2.0
 	assert obs == exp
 
-
+"""
 def test_complex():
 	#testing for complex numbers
 	#as arithmetic mean of complex numbers is meaningless
@@ -26,6 +26,7 @@ def test_complex():
 	obs = mean(num_list)
 	exp = NotImplemented
 	assert obs==exp
+"""
 
 #test_ints()
 #test_double()
