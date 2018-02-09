@@ -9,8 +9,8 @@ def test_ints(nlist=numlist):
 
 def test_double(nlist=numlist):
 	obs = mean(nlist)
-	nlist = [1,2,3,4]
-	exp = 2.5
+	#nlist = [1,2,3,4]
+	exp = 3
 	assert obs == exp
 
 def test_long():
